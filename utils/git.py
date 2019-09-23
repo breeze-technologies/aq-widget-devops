@@ -2,6 +2,7 @@ import os
 
 from .shell import run_cmd
 
+
 def load_source(url, dir, branch="master", tag=None):
     print("\nFetching source for:", dir)
     if(not os.path.isdir(dir) or not os.path.isdir(dir+"/.git")):

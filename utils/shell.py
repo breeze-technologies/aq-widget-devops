@@ -1,5 +1,6 @@
 import subprocess
 
+
 def run_cmd(cmd):
     print("$", cmd)
     output = subprocess.check_output(cmd, shell=True)
