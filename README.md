@@ -20,7 +20,7 @@ In order to define specific versions of the source repositories, (version) tags 
 $ ./build_bundle.py --apiVersion 1.2.3 --appVersion 3.2.1 --clientVersion 1.0.0
 ```
 
-For development purposes, branches names may be specified instead of or in addition to version tags.
+For development purposes, branch names may be specified instead of or in addition to version tags.
 
 ```shell
 $ ./build_bundle.py --apiBranch dev --appBranch feature/colors --clientBranch dev
