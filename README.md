@@ -1,4 +1,4 @@
-# AQ Widget bundler
+# AQ Widget ▶︎ Build & Run Instructions
 
 This repository contains a Dockerfile to bundle the AQ Widget into a Docker container.
 It therefore clones `aq-widget-app` and `aq-widget-api`, installs, merges and runs them.
