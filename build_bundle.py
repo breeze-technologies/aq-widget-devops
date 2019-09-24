@@ -5,11 +5,9 @@ import subprocess
 import os
 
 from utils import git, npm, docker
+from config import GIT_REMOTE_API, GIT_REMOTE_APP, GIT_REMOTE_CLIENT
 
 
-GIT_REMOTE_API = "git@bitbucket.org:breezecloud/aq-widget-api.git"
-GIT_REMOTE_APP = "git@bitbucket.org:breezecloud/aq-widget-app.git"
-GIT_REMOTE_CLIENT = "git@bitbucket.org:breezecloud/aq-client-eea.git"
 GIT_LOCAL_DIR_API = "aq-widget-api"
 GIT_LOCAL_DIR_APP = "aq-widget-app"
 GIT_LOCAL_DIR_CLIENT = "aq-client-eea"
