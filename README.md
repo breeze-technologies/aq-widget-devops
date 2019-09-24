@@ -1,7 +1,6 @@
 # AQ Widget ▶︎ Build & Run Instructions
 
-This repository contains a Dockerfile to bundle the AQ Widget into a Docker container.
-It therefore clones `aq-widget-app` and `aq-widget-api`, installs, merges and runs them.
+This repository contains a Dockerfile to bundle the AQ Widget into a Docker container. It therefore clones `aq-widget-app` and `aq-widget-api`, installs, merges and runs them.
 
 ## Prerequisites
 
@@ -17,13 +16,11 @@ For building and running this software, the following dependencies need to be in
 
 ## Build instructions
 
-There are multiple ways in order to build a deployable Docker image. The `build_bundle.py` script
-offers a convenient method for different purposes.
+There are multiple ways in order to build a deployable Docker image. The `build_bundle.py` script offers a convenient method for different purposes.
 
 ### Build configuration
 
-The build script requires the URLs to the remote git repositories of the project modules. Therefore,
-a `config.py` file needs to be created. A `config.py` template can be found in `config.py.example`.
+The build script requires the URLs to the remote git repositories of the project modules. Therefore, a `config.py` file needs to be created. A `config.py` template can be found in `config.py.example`.
 
 ```python
 GIT_REMOTE_API = "git@example.com:orgName/aq-widget-api.git"
