@@ -1,0 +1,3 @@
+GIT_REMOTE_API = "git@example.com:orgName/aq-widget-api.git"
+GIT_REMOTE_APP = "git@example.com:orgName/aq-widget-app.git"
+GIT_REMOTE_CLIENT = "git@example.com:orgName/aq-client-eea.git"

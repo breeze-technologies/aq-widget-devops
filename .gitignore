@@ -1,0 +1,6 @@
+aq-widget-api
+aq-widget-app
+aq-client-eea
+
+__pycache__
+config.py
